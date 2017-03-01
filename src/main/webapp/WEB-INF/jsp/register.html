@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div align="center">
+		<div align="center">用户注册</div>
+		<form action="">
+
+			<p>
+				注册名：<input type="text" name="username" />
+			</p>
+			<p>
+				密码：<input type="password" name="password" />
+			</p>
+			<p>
+				确认密码：<input type="password" name="repassword" />
+			</p>
+			<p>
+			
+				<span>性别：<label for="man">男</label><input id ="man" type="radio" name="sex" value="1" checked="checked"/></span>
+				<label for="women">女</label><input id="women" type="radio" name="sex" value="1"/></span>
+			</p>
+			<p>
+				年龄：<input type="text" name="age" />
+			</p>
+			<p>
+				电话：<input type="text" name="telephone" />
+			</p>
+			<p>
+				邮箱：<input type="text" name="email" />
+			</p>
+			
+
+			<input onclick="return register(this.form)" type ="submit" vale="提交"/>
+			
+		</form>
+	</div>
+</body>
+</html>
